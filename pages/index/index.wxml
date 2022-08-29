@@ -18,7 +18,11 @@
     </block>
   </view>
   <view >
-   <van-button type="primary" bindtap="getinfo">async按钮</van-button>
-   <van-button type="danger">按钮</van-button>
+  <van-button bindtap="gotoUsestore"  type="primary" block>usestore</van-button>
+   <van-button type="primary" bindtap="getinfo" block>async按钮</van-button>
+   <van-button type="danger" block>按钮</van-button>
+  </view>
+  <view>
+    {{numA}}+{{numB}}={{sum}}
   </view>
 </view>
